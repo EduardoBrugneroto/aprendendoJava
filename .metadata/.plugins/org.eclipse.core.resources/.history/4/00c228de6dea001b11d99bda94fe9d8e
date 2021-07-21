@@ -1,0 +1,15 @@
+
+public class TesteConvencao {
+	public static void main(String[] args) {
+		double salario = 1270.50;
+		int valor = (int)salario;
+		System.out.println(valor);
+		
+		long numeroGrande = 223453523453453425l;
+	
+		double valor1 = 0.1;
+		double valor2 = 0.3;
+		double total = valor1 + valor2;
+		System.out.println(total);
+	}
+}
